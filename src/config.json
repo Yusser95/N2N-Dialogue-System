@@ -1,0 +1,39 @@
+{
+    "kb" : "src/data/CamRest.json",
+    "embed_model" : "src/data/vocab_tiny.model",
+    "diags_train": "src/data/woz2_train.delexed.json",
+    "diags_val": "src/data/woz2_dev.delexed.json",
+    "diags_test" : "src/data/woz2_test.json",
+
+    "sys_vocab" : "src/data/sys_vocab.json",
+    "ontology": "src/data/CamRestOTGY.json",
+
+    "tracker_model": "src/models/tracker_5401.model",
+
+    "use_pretrained_embedding" : true,
+
+    "generate_embed" : false,
+    "paragram_file" : "src/data/paragram_300_sl999.txt",
+
+    "kb_indicator_len" : 3,
+    "attention" : false,
+
+    "sentvec_size": 300,
+    "state_tracker_hidden_size" : 300,
+    "cond_size" : 350,
+    "generator_hidden_size" : 300,
+    "teacher_forcing_ratio" : 0.5,
+
+    "epoch": 200000,
+    "vocab_dim": 300,
+    "sys_embed_dim" : 300,
+
+    "lr" : 1e-3,
+    "momentum": 0.9,
+    "early_stopping" : 10,
+    "sent_group_size" : 200,
+    "sent_groups": "src/data/groups.json",
+
+    "model_dir" : "src/models/"
+
+}
