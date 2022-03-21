@@ -5,38 +5,8 @@
 ## python3.9.9
 
 # files structure
-## │   .gitignore
-## │   README.md
-## │   requirements.txt
-## │   test.ipynb
-## │
-## └───src
-##     │   belief_tracker.py
-##     │   cli.py
-##     │   config.json
-##     │   database_operator.py
-##     │   data_loader.py
-##     │   generation_network.py
-##     │   intent_network.py
-##     │   n2n_dialogue_system.py
-##     │   policy_network.py
-##     │   train.py
-##     │   utils.py
-##     │   __init__.py
-##     │
-##     ├───data
-##     │       CamRest.json
-##     │       CamRestOTGY.json
-##     │       groups.json
-##     │       sys_vocab.json
-##     │       vocab_tiny.model
-##     │       vocab_tiny.model.w2i
-##     │       woz2_dev.delexed.json
-##     │       woz2_test.json
-##     │       woz2_train.delexed.json
-##     │
-##     └───models
-##             tracker_5401.model
+![alt text](https://github.com/Yusser95/N2N-Dialogue-System/blob/main/projecttree.jpg?raw=true)
+
 
 # Run
 ## download the following files and extract them in the corrosponding directories
